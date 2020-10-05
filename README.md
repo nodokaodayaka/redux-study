@@ -11,15 +11,15 @@
     },
 ```
 
+### localhost:4000 にアクセスできる事 
 
 `$ yarn server`
 
-localhost:4000 にアクセスできる事
-
-
+### localhost:3000 にアクセスできること
 `$ cd client && yarn install`
 
-localhost:3000 にアクセスできること
+
+### localhost:4000/localhost:3000 両方にアクセスできること
 
 `$ cd repo_dir && yarn dev`
-localhost:4000/localhost:3000 にアクセスできること
+
