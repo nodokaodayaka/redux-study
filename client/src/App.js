@@ -1,19 +1,12 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import TodoList from './components/TodoList';
 
 function App() {
-  const [data, setData] = useState([{text:'first'}]);
-
-  const clickHandler = () => {
-    const work = axios.get('http://localhost:4000/').then(res => {
-      setData(res.data);
-    });
-  };
+  const [data, setData] = useState([]);
 
   return (
-    <div>
-      <button onClick={clickHandler}>Click Me!</button>
-      <div>{data[0].text}</div>
+    <div className="App">
+      <TodoList todoList={data} setData={setData} />
     </div>
   );
 }
