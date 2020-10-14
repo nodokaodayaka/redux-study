@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Todo from './Todo';
+import TodoAdd from './TodoAdd';
 
 const TodoList = ({ todoList, setData }) => {
 
@@ -12,6 +13,7 @@ const TodoList = ({ todoList, setData }) => {
 
     return (
         <div>
+            <TodoAdd />
             <button onClick={() => click()}>Get TodoList from server.js</button>
             <button onClick={() => {setData([])}}>Clear TodoList from Display</button>
             <ul>
