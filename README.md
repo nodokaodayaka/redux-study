@@ -1,6 +1,6 @@
 # redux-study
 
-`$ yarn install`
+`$ cd redux-study && yarn install`
 
 ```
     "scripts": {
@@ -13,13 +13,13 @@
 
 ### localhost:4000 にアクセスできる事 
 
-`$ yarn server`
+`$ cd redux-study && yarn server`
 
 ### localhost:3000 にアクセスできること
-`$ cd client && yarn install`
+`$ cd redux-study/client && yarn install`
 
 
 ### localhost:4000/localhost:3000 両方にアクセスできること
 
-`$ cd repo_dir && yarn dev`
+`$ cd redux-study && yarn dev`
 
