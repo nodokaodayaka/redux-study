@@ -13,7 +13,7 @@ const TodoList = ({ todoList, setData }) => {
 
     return (
         <div>
-            <TodoAdd />
+            <TodoAdd refresh={click} />
             <button onClick={() => click()}>Get TodoList from server.js</button>
             <button onClick={() => {setData([])}}>Clear TodoList from Display</button>
             <ul>
